@@ -16,7 +16,7 @@ export interface FlatsFlatCard extends Struct.ComponentSchema {
     displayName: 'Flat Card';
   };
   attributes: {
-    amenties: Schema.Attribute.Component<'flats.amenity', true>;
+    amenities: Schema.Attribute.Component<'flats.amenity', true>;
     cover: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     priceMonthly: Schema.Attribute.Decimal;
     rentCondition: Schema.Attribute.Text;

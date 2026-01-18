@@ -18,7 +18,7 @@
     "title": {
       "type": "string"
     },
-    "amenties": {
+    "amenities": {
       "type": "component",
       "component": "flats.amenity",
       "repeatable": true
