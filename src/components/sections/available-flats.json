@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_available_flats",
+  "info": {
+    "displayName": "Available Flats"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "items": {
+      "type": "component",
+      "component": "flats.flat-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

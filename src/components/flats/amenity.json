@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_flats_amenities",
+  "info": {
+    "displayName": "Amenity"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

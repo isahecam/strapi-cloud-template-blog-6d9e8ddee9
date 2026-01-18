@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "available_flats",
+  "info": {
+    "singularName": "available-flat",
+    "pluralName": "available-flats",
+    "displayName": "Home Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.available-flats"
+      ]
+    }
+  }
+}

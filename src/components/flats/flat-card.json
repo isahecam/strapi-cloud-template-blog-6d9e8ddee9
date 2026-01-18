@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_flats_flat_cards",
+  "info": {
+    "displayName": "Flat Card"
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "amenties": {
+      "type": "component",
+      "component": "flats.amenity",
+      "repeatable": true
+    },
+    "priceMonthly": {
+      "type": "decimal"
+    },
+    "rentCondition": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}
